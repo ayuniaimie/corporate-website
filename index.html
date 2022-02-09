@@ -11,7 +11,13 @@
 </head>
 
 <body>
-<!-- This is page 1-->
+ 
+  <!-- This is for page 1 -->
+	<div id="Page1">
+    Content of page 1
+    <a href="#" onclick="return show('Page2','Page1');">Show page 2</a>
+  </div>
+    
 <div data-role="page" id="page1"> 
 <div data-role="header" class="header" width="100%" data-theme="b">
 		<h1>HOME</h1>
@@ -119,8 +125,10 @@ function showSlides() {
 </div>
 
 
-<!-- This is for page 2 -->
-<div data-role="page" id="page2">
+ <!-- This is for page 2 -->
+	<div id="Page2">
+    Content of page 2
+      </div>
       <div data-role="header" class="header" data-theme="b">
 	    <h1>HOLIDAY PACKAGE</h1>
       </div>
@@ -171,8 +179,10 @@ function showSlides() {
 </div>
 
 
-<!-- This is for page 3 -->
-<div data-role="page" id="page3">
+ <!-- This is for page 3 -->
+	<div id="Page3">
+    Content of page 3
+   
        <div data-role="header" class="header" data-theme="b">
 	    <h1>ACCOMMODATION</h1>
       </div>
@@ -226,7 +236,8 @@ function showSlides() {
 </div>
 
 <!-- This is for page 4 -->
-<div data-role="page" id="page4">
+ <div id="Page4">
+    Content of page 4
       <div data-role="header" class="header" data-theme="b">
 	    <h1>OUR GALLERY</h1>
       </div>
